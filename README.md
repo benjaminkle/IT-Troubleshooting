@@ -4,9 +4,9 @@ This is a personal collection of basic troubleshooting guides and commands I’v
 
 ---
 
-## 🪟 Windows Issues
+## Windows Issues
 
-### 🔌 No Internet / Network Issues
+### No Internet / Network Issues
 - Check physical connection
 - Run:
   ```
@@ -20,7 +20,7 @@ This is a personal collection of basic troubleshooting guides and commands I’v
   netsh int ip reset
   ```
 
-### 🖨️ Printer Not Responding
+### Printer Not Responding
 - Restart Print Spooler:
   ```
   net stop spooler
@@ -29,9 +29,9 @@ This is a personal collection of basic troubleshooting guides and commands I’v
 
 ---
 
-## 🐧 Linux (Ubuntu/Debian)
+## Linux (Ubuntu/Debian)
 
-### 🔐 User Locked Out
+### User Locked Out
 - Boot into recovery mode
 - Remount filesystem:
   ```
@@ -42,7 +42,7 @@ This is a personal collection of basic troubleshooting guides and commands I’v
   passwd <username>
   ```
 
-### 💾 Disk Full
+### Disk Full
 - Check usage:
   ```
   df -h
@@ -54,7 +54,7 @@ This is a personal collection of basic troubleshooting guides and commands I’v
   sudo apt-get autoremove && sudo apt-get clean
   ```
 
-### 🔍 Service Won’t Start
+### Service Won’t Start
 - Check status:
   ```
   systemctl status <service>
@@ -66,14 +66,8 @@ This is a personal collection of basic troubleshooting guides and commands I’v
 
 ---
 
-## 🧠 What I’m Practicing
+## What I’m Practicing
 - System command-line tools  
 - Troubleshooting methodology  
 - Creating mini SOPs (standard operating procedures)
 
----
-
-## ✅ Future Additions
-- Common remote support steps  
-- SSH issues  
-- More user management commands
